@@ -117,7 +117,7 @@
 	Nicescroll
 --------------------------------------*/
     $(".notice-left").niceScroll({
-        cursorcolor: "#EC1C23",
+        cursorcolor: "#238856",
         cursorborder: "0px solid #fff",
         autohidemode: false,
     });
