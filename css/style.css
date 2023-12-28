@@ -1218,7 +1218,7 @@ textarea {
     color: #238856;
 }
 .notice-video {
-    background: rgba(0, 0, 0, 0) url("../img/notice/video.jpg") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../img/notice/dimg.jpg") repeat scroll 0 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1256,7 +1256,7 @@ textarea {
 /*  5. Choose CSS
 /*----------------------------------------*/
 .choose-area{
-    background: url(../img/images/vsn.jpeg);
+    background: url(../img/choose/choose-bd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -1271,8 +1271,7 @@ textarea {
     width: 100%;
     height: 100%;
     content: "";
-    background-color: #8ec15d;
-    
+    background: rgb(142 193 93/90%);
 }
 .choose-area:before{
     position: absolute;
@@ -1366,7 +1365,7 @@ textarea {
     width: 100%;
     height: 100%;
     content: "";
-    background: rgba(0,109,64,255);
+    background: rgb(23 236 53 / 50%);
     opacity: 0;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
@@ -1525,7 +1524,7 @@ textarea {
     text-align: center;
 }
 .event-img img {
-    width: 50%;
+    width: 100%;
 }
 .event-date h3:hover a{
     color: #fefefe;
@@ -1639,7 +1638,7 @@ textarea {
     display: block;
 }
 .event-area.three .event-img a:after{
-    background: rgba(0,109,64,255) none repeat scroll 0 0;
+    background: rgb(23 236 53 / 50%) none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -1801,7 +1800,8 @@ textarea {
     top: 0;
     width: 100%;
     height: 100%;
-    content: ""; background-color: #8ec15d;
+    content: "";
+    background: rgb(142 193 93/90%);
 
     
 }
@@ -1855,7 +1855,7 @@ textarea {
     width: 100%;
     height: 100%;
     content: "";
-    background: rgba(0,109,64,255);
+    background: rgb(23 236 53 / 50%);
     opacity: 0;
     -webkit-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
@@ -1864,18 +1864,7 @@ textarea {
 .blog-img img {
   width: 100%;
 }
-/*
-.blog-hover {
-    content: "";
-    left: 50%;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    transition: all 0.5s ease 0s;
-    z-index: 1;
-    transform: translate(-50%, -50%);
-}
-*/
+
 .blog-hover i{
     color: #fff;
     font-size: 20px;
@@ -2303,7 +2292,7 @@ textarea {
 }
 
 .footer-logo {
-    max-width: 20%;
+    max-width: 100%;
 }
 .single-widget h3::before {
     background: #606060 none repeat scroll 0 0;
