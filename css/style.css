@@ -157,7 +157,7 @@ textarea {
     transition: all 0.5s ease-out 0s;
 }
 .banner-area {
-  background: rgba(0, 0, 0, 0) url("../img/banner/banner.jpg") no-repeat scroll center center / cover ;
+  background: rgba(0, 0, 0, 0) url("../img/vsn.jpeg") no-repeat scroll center center / cover ;
   position: relative;
   width: 100%;
   z-index: 1;
@@ -990,9 +990,9 @@ textarea {
 .two .single-slide:after{
     background: rgba(0, 0, 0, 0.55);
 }
-.three .single-slide:after, .banner-area:after{
+/* .three .single-slide:after, .banner-area:after{
     background: rgba(0, 0, 0, 0.80);
-}
+} */
 .slider-img{z-index: 1; position: relative; margin-right: -25px}
 .slider-area img {width: 100%;}
 .slide-content, .text-content{z-index: 99; position: relative}
